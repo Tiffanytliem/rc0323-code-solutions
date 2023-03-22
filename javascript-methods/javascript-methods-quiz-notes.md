@@ -35,9 +35,9 @@ about 47
 - Is the return value of a function or method useful in every situation?
 yes?
 - Roughly how many array methods are there according to the MDN Web docs?
-unsure
+about 40
 - What three-letter acronym should you always include in your Google search about a JavaScript method or CSS property?
-unsure
+MDN
 ## Notes
 
 All student notes should be written here.
