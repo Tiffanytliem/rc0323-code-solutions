@@ -33,14 +33,12 @@ function isOldEnoughToDrinkAndDrive(person) {
 }
 
 function categorizeAcidity(pH) {
-  if (Number.isInteger(pH)) {
-    if (pH > 0 && pH < 7) {
-      return 'acid';
-    } else if (pH === 7) {
-      return 'neutral';
-    } else if (pH > 7) {
-      return 'base';
-    }
+  if (pH >= 0 && pH < 7) {
+    return 'acid';
+  } else if (pH === 7) {
+    return 'neutral';
+  } else if (pH > 7 && pH <= 14) {
+    return 'base';
   }
   return 'invalid pH level';
 }
@@ -73,6 +71,6 @@ function recommendMovie(genre) {
     case 'sci-fi':
       return 'Everything everywhere all at once';
     default:
-      return ' Gerne not recognized. Choose between action, comedy, horror, drama, musical, or sci-fi';
+      return 'Genre not recognized. Choose between action, comedy, horror, drama, musical, or sci-fi';
   }
 }
