@@ -5,9 +5,9 @@
 After completing this exercise, you should be able to discuss or answer the following questions:
 
 - Where do you put non-visible content about the HTML document?
-outside the index.html file
+in the <!-- --> comment tag
 - Where do you put visible content about the HTML document?
-in the index.html file
+outside the <!-- --> comment tag
 - Where do the `<head>` and `<body>` tags go in a valid HTML document?
 <head> goes inside the <body> tag, <body> tag goes inside the <html> tag.
 - What is the purpose of a `<!DOCTYPE>` declaration?
