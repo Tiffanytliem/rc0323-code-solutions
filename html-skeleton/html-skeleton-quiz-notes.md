@@ -5,11 +5,11 @@
 After completing this exercise, you should be able to discuss or answer the following questions:
 
 - Where do you put non-visible content about the HTML document?
-in the <!-- --> comment tag
+in the <head></head> tag
 - Where do you put visible content about the HTML document?
-outside the <!-- --> comment tag
+in the <body></body> tag
 - Where do the `<head>` and `<body>` tags go in a valid HTML document?
-<head> goes inside the <body> tag, <body> tag goes inside the <html> tag.
+<head> and <body> tags goes inside the <html> tag.
 - What is the purpose of a `<!DOCTYPE>` declaration?
 to tell a browser which version of HTML the page is using.
 
