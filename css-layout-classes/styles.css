@@ -21,7 +21,7 @@
 }
 
 .column-one-fourth {
-  flex-basis: calc(100%/4);
+  flex-basis: 25%;
 }
 
 .column-two-third {
