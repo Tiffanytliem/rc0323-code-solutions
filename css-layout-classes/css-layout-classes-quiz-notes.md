@@ -5,15 +5,17 @@
 After completing this exercise, you should be able to discuss or answer the following questions:
 
 - Why do two div elements "vertically stack" on one another by default?
+because div is a block element
 
 - What is the default `flex-direction` of an element with `display: flex`?
+row from left to right
 
 - What are the three primary components of a page layout? (Which helper classes do you need?)
-
+container, row, column
 - What is the minimum number of **columns** that you should put in a **row**?
-
+1
 - What is the purpose of a **container**?
-
+to modify the items inside all at once.
 
 ## Notes
 
