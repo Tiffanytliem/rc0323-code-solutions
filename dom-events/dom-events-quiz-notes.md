@@ -29,11 +29,11 @@ event.target is the html element of the event. I would check by logging it into 
     ```js
     element.addEventListener('click', handleClick)
     ```
-  using an already defined function as a callback function
+  passing a reference to the handleClick function as the second argument to the addEventListener method. The function is executed after the click event is triggered
     ```js
     element.addEventListener('click', handleClick())
     ```
-  this one is using a handleClick() method of the listener object.
+  passing the return of the handleClick function as the second argument to the addEventListener method. the function is executed before the click event is triggered.
 
 ## Notes
 
