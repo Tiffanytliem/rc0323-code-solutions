@@ -33,7 +33,7 @@ event.target is the html element of the event. I would check by logging it into 
     ```js
     element.addEventListener('click', handleClick())
     ```
-  this one is defining a new function in the argument to use it as a callback function
+  this one is using a handleClick() method of the listener object.
 
 ## Notes
 
