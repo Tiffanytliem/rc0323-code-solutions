@@ -2,31 +2,32 @@
   box-sizing: border-box;
 }
 
-.container.on {
+.container {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: rgb(252 248 213);
   height: 100vh;
 }
 
-.lightbulb.on {
-  padding: 10%;
+.lightbulb {
+  height: 30vh;
+  width: 30vh;
   border-radius: 50%;
+}
+
+.container.on {
+  background-color: rgb(252 248 213);
+}
+
+.lightbulb.on {
   background-color: rgb(253 253 122);
   box-shadow: 0 0 40px rgb(253 253 122);
 }
 
 .container.off {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   background-color: rgb(0 0 0);
-  height: 100vh;
 }
 
 .lightbulb.off {
-  padding: 10%;
-  border-radius: 50%;
   background-color: rgb(36 36 36);
 }
