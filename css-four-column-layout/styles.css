@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Barlow, sans-serif;
+  background-color: #f7f8fa;
+  font-weight: 400;
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  padding: 0 9%;
+}
+
+.column-fourth {
+  flex-basis: 25%;
+}
+
+.phone-screen {
+  width: 90%;
+  margin: 0 5%;
+}
+
+.icon {
+  width: 20%;
+  margin: -1% 40%;
+}
+
+.bold {
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+
+p {
+  font-size: 0.7rem;
+  line-height: 2;
+}
+
+h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
