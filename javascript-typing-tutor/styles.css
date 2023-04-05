@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Amaranth, sans-serif;
+  font-size: 2rem;
+  letter-spacing: 0.2rem;
+  color: #4d455d;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+.type {
+  padding-bottom: 2px;
+  border-bottom: 3px solid#4d455d;
+}
+
+.correct {
+  color: #7db9b6;
+}
+
+.incorrect {
+  color: #e96479;
+  padding-bottom: 2px;
+  border-bottom: 3px solid #e96479;
+}
