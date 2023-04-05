@@ -15,7 +15,7 @@ After completing this exercise, you should be able to discuss or answer the foll
 - What does the `event.preventDefault()` method do?
 it tells user agent that if the event does not get explicitly handled, its default action should not be taken as it normally would be
 - What does submitting a form without `event.preventDefault()` do?
-the browser will reload automatically and we will lose the input values.
+the browser will reload automatically and store the data in the url or somewhere else without executing other codes in the callback function
 - What property of a form element object contains all of the form's controls.
 elements
 - What property of a form control object gets and sets its value?
