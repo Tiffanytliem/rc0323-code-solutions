@@ -11,7 +11,9 @@ To collect input from the user.
 - Give three examples of `type` attribute values for HTML `<input>` elements.
 checkbox, radio, text
 - Is an HTML `<input>` element a block element or an inline element?
-inline block element
+
+inline element
+
 ## Notes
 
 All student notes should be written here.
