@@ -17,10 +17,10 @@ to access the text content inside that element
 set .textContent to a new contet
 
 - Is the `event` parameter of an event listener callback always useful?
-yes?
+No it is not
 
 - Would this assignment be simpler or more complicated if we didn't use a variable to keep track of the number of clicks?
-more complicated
+more complicated, because we would not have something to use as a condition for changing the styling of the button
 
 - Why is storing information about a program in variables better than only storing it in the DOM?
 because it helps speed up the process since we dont have to call the DOM methods again
