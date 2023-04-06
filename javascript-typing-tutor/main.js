@@ -12,7 +12,9 @@ function check(event) {
 
     if (selector === 'char30' && event.key === 'w') {
       document.querySelector('.typing-result').className = 'typing-result';
-      return;
+      console.log(event.key, selector);
+      window.removeEventListener('keydown', check);
+
     } else {
       document.querySelector('.typing-result').className = 'typing-result hide';
     }
@@ -33,6 +35,7 @@ function check(event) {
   const accuracy = Math.round((30 - wrongChar) / 30 * 100);
   const $score = document.querySelector('.score');
   $score.textContent = accuracy + '%';
+
 }
 
 const $yesButton = document.querySelector('.yes');
