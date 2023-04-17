@@ -5,7 +5,7 @@
 After completing this exercise, you should be able to discuss or answer the following questions:
 
 - What is `this` in JavaScript?
-this is an implicit parameter of all JavaScript functions
+this is an implicit parameter of all JavaScript functions, and the value of this is determined when the function is called.
 
 - What does it mean to say that `this` is an "implicit parameter"?
 it means that it is available in a function's code block even though it was never included in the function's parameter list or declared.
@@ -37,8 +37,8 @@ the character object
     const hello = character.greet;
     hello();
     ```
-`It's-a-me, Mario!`
-Because `hello` is now as same as the character.greet method
+`It's-a-me, undefined!`
+Because `hello` is assigned to the method greet, however, `this` is seperated from the object so now its .firstName property is undefined.
 
 - How can you tell what the value of `this` will be for a particular function or method **definition**?
 by looking at where `this` is placed in a function or method
