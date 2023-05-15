@@ -20,7 +20,7 @@ by entering npminit -- yes in the command line
 a dependency is another package that your package needs in order to work
 
 - What happens when you add a dependency to a package with `npm`?
-
+it is added to jackage.json
 
 - What is a devDependency and how do you add one to a package?
 devDependency is Development dependency, it is meant to support the development process of your web application. It is installed by typing npm install eslint --save-dex in the command line
