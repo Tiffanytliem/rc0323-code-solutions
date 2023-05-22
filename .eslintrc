@@ -8,8 +8,6 @@
     "ecmaVersion": 2023
   },
   "extends": [
-    "plugin:react/recommended",
-    "plugin:react-hooks/recommended",
     "eslint:recommended",
     "standard"
   ],
