@@ -89,6 +89,32 @@ app.put('/api/grades/:gradeId', async (req, res) => {
   }
 });
 
+app.delete('/api/grades/:gradeId', async (req, res) => {
+  try {
+    const gradeId = Number(req.params.gradeId);
+    if (!gradeId) {
+      res.status(404).json({ error: `cannot find gradeId ${gradeId} in the database` });
+    }
+    if (!Number.isInteger(gradeId) || gradeId <= 0) {
+      res.status(400).json({ error: '"gradeId" must be a positive integer' });
+      return;
+    }
+
+    const sql = `
+    delete
+      from "grades"
+      where "gradeId" = $1
+    `;
+
+    const result = await db.query(sql, [gradeId]);
+    const grade = result.rows[0];
+    res.status(200).json(grade);
+  } catch (err) {
+    console.error(err);
+    res.status(500).json({ error: 'An unexpected error occurred' });
+  }
+});
+
 app.listen(3030, () => {
   console.log('Listening at port 3030...');
 });
