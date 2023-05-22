@@ -1,17 +1,14 @@
-# react-components-quiz-notes
+# react-jsx-quiz-notes
 
 ## Quiz Questions
 
 After completing this exercise, you should be able to discuss or answer the following questions:
 
-- What is a React component?
-A React component is a JavaScript function that you can sprinkle with markup.
+- What is JSX?
+JSX is a syntax extension for JavaScript that lets you write HTML-like markup inside a JavaScript file.
 
-- How do you define a component in React?
-by defining a function with `function ()`?
+- How does React use JSX to render components?
 
-- How is a component "rendered" (made visible on the browser page)?
-The JSX is converted to a JavaScript representation of HTML structure
 
 ## Notes
 
