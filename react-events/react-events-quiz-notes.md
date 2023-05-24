@@ -15,15 +15,16 @@ a function
 by adding it as a function inside the component and pass it as a prop
 
 - What is the naming convention for event handlers?
-handle + the action
+handleXxx where Xxx is the event
 
 - What is an "event handler prop"? Which component declares the prop?
-on + the action
+event handler prop is a property that represents an event, the component that needs the event handler
 
 - What are some custom event handler props a component may wish to define?
+click, mouseover, keydown
 
 - What is the naming convention for custom event handler props?
-
+handleCustomXxx where Xxx is the event
 
 ## Notes
 
