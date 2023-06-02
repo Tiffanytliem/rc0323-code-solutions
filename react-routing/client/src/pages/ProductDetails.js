@@ -43,7 +43,7 @@ export default function ProductDetails() {
         <div className="card-body">
           <div className="row">
             <div className="col">
-              <Link to='/' className="btn text-secondary">
+              <Link to="/" className="btn text-secondary">
                 {/* TODO: Instead of a div, the above should link to `/` */}
               &lt; Back to catalog
               </Link>
