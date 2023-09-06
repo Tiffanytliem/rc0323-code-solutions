@@ -40,7 +40,7 @@ function check(event) {
 
 const $yesButton = document.querySelector('.yes');
 $yesButton.addEventListener('click', function () {
-  window.location.reload();
+  window.location.reload(false);
 });
 
 const $noButton = document.querySelector('.no');
