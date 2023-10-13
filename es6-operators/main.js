@@ -11,8 +11,10 @@ const v4 = [3, 5, 7, 9];
  * Expected: v1 message logs, v2 message does not.
  */
 
+
 v1 && console.log('v1 is truthy');
 v2 && console.log('v2 is truthy');
+
 
 /* TODO:
  * Demonstrate how to assign a "default value" to a variable.
@@ -26,6 +28,11 @@ const config1 = v1 || 'default-value';
 const config2 = v2 || 'default-value';
 console.log('config1: ', config1, 'config2:', config2);
 
+// v1 ? config1 = `default-value`
+
+// v2 ? config2 = `dfault-value`
+
+
 /* TODO:
  * Demonstrate how to assign a "default value" to a variable only if the variable is `undefined`.
  * In one expression, assign `'default-value'` to the variable `cfg1` if v1 is undefined.
@@ -35,10 +42,12 @@ console.log('config1: ', config1, 'config2:', config2);
  * Expected: `config1 = { value: 'Something' }`, `config2 = ''`, `config3 = 'default-value'`.
  */
 
+
 const cfg1 = v1 ?? 'default-value';
 const cfg2 = v2 ?? 'default-value';
 const cfg3 = v3 ?? 'default-value';
 console.log('cfg1:', cfg1, 'cfg2:', cfg2, 'cfg3:', cfg3);
+
 
 /* TODO:
  * Use the shorthand if/else, which is especially useful for variable assignments.
@@ -49,9 +58,11 @@ console.log('cfg1:', cfg1, 'cfg2:', cfg2, 'cfg3:', cfg3);
  * Expected: `tern1 = 'truthy'`, `tern2 = 'falsy'`.
  */
 
+
 const tern1 = v1 ? 'truthy' : 'falsy';
 const tern2 = v2 ? 'truthy' : 'falsy';
 console.log('tern1:', tern1, 'tern2:', tern2);
+
 
 /* TODO:
  * Use the shorthand for "if defined".
@@ -63,11 +74,13 @@ console.log('tern1:', tern1, 'tern2:', tern2);
  * Expected: `oc1 = 'Something'`, `oc2 = undefined`, `oc3 = undefined`.
  */
 
+
 const oc1 = v1?.value;
 const oc2 = v2?.value;
 const oc3 = v3?.value;
 
 console.log('oc1:', oc1, 'oc2:', oc2, 'oc3:', oc3);
+
 
 /* TODO:
  * Copy an object and add one property.
@@ -77,8 +90,10 @@ console.log('oc1:', oc1, 'oc2:', oc2, 'oc3:', oc3);
  * Expected: `sObj = { value: 'Something', foo: 'bar' }`.
  */
 
+
 const sObj = { ...v1, foo: 'bar' };
 console.log('sObj:', sObj);
+
 
 /* TODO:
  * Copy an array and prepend one element.
@@ -87,6 +102,7 @@ console.log('sObj:', sObj);
  * Log `sArr`.
  * Expected: `sArr = [100, 3, 5, 7, 9]`.
  */
+
 
 const sArr = [100, ...v4];
 console.log('sArr:', sArr);

@@ -1,0 +1,108 @@
+    1  git branch es6-destructuring
+    2  git switch es6-destructuring
+    3  git add es6-destructuring
+    4  git commit -m "Completed es6-destructuring exercise."
+    5  git push origin es6-destructuring
+    6  git add es6-destructuring
+    7  git commit -m "Completed es6-destructuring exercise."
+    8  git add es6-destructuring
+    9  git commit -m "Completed es6-destructuring exercise."
+   10  git add .
+   11  git commit -m "Completed es6-destructuring exercise."
+   12  git push origin es6-destructuring
+   13  git switch main
+   14  git branch es6-arrow-functions
+   15  git switch es6-arrow-functions
+   16  git add .
+   17  git commit -m "Completed es6-arrow-functions exercise."
+   18  git push origin es6-arrow-functions
+   19  git switch main
+   20  git branch es6-operators
+   21  git switch es6-operators
+   22  git switch main
+   23  git branch array-methods
+   24  git switch array-methods
+   25  git add .
+   26  git commit -m "Completed array-methods exercise."
+   27  git push origin array-methods
+   28  git switch main
+   29  git branch command-line-basics
+   30  git switch command-line-basics
+   31  cd css-flexbox
+   32  cd rc-0323-code-solutions
+   33  cd rc0323-code-solutions
+   34  cd /workspaces/rc0323-code-solutions
+   35  cd command-line-basics
+   36  man man
+   37  man cat
+   38  man cat laziness.txt
+   39  laziness.txt
+   40  cat laziness.txt
+   41  cat impatience.txt
+   42  cat hubris.txt
+   43  cat laziness.txt impatience.txt hubris.txt
+   44  cat laziness.txt impatience.txt hubris.txt > three-virtues.txt
+   45  cat three-virtues.txt
+   46  man ls
+   47  ls lfz-staff/
+   48  ls
+   49  ls lfz-staff/
+   50  ls
+   51  ls -a
+   52  ls -F
+   53  ls lfz-staff/
+   54  ls lfz-staff/ -a
+   55  ls lfz-staff/ -F
+   56  ls -aF lfz-staff > lfz-staff/contents.txt
+   57  cat lfz-staff/contents.txt
+   58  man pwd
+   59  pwd > i-was-here.text
+   60  cat i-was-here.text
+   61  cat i-was-here.txt
+   62  man echo
+   63  echo 'Hello, World!'
+   64  echo 'Hello, World!' > hello.txt
+   65  ls
+   66  cat hello.txt
+   67  man mkdir
+   68  mkdir parent
+   69  ls
+   70  ls parent/
+   71  man mkdir
+   72  mkdir -p parent/child/grandchild
+   73  touch .gitkeep
+   74  touch parent/child/grandchild .gitkeep
+   75  man touch
+   76  touch .gitkeep parent/child/grandchild
+   77  cd grandchild
+   78  cd parent/child/grandchild
+   79  touch .gitkeep
+   80  ls -a
+   81  cd /workspaces/rc0323-code-solutions/command-line-basics/
+   82  man mv
+   83  mv pokiemans pokemon
+   84  ls
+   85  man rm
+   86  rm lol.txt
+   87  ls
+   88  rm -r kill-me/
+   89  ls
+   90  man cp
+   91  cp and-then.txt no-and-then.txt
+   92  ls
+   93  cat and-then.txt no-and-then.txt
+   94  man history
+   95  history
+   96  history > command-history.txt
+   97  cd ..
+   98  pwd
+   99  man pwd
+  100  man echo
+  101  man touch
+  102  cd command-line-basics
+  103  man touch
+  104  touch tag-youre-it.txt
+  105  touch snoot/boop.txt
+  106  ls snoot/
+  107  history
+  108  history > command-history.txt

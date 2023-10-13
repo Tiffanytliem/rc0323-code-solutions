@@ -37,6 +37,7 @@ You can spread anything into an object that has "own properties", which is prett
 - How does spread syntax differ from rest syntax?
 You spread inside a literal object or array. You use rest when destructuring.
 
+
 ## Notes
 
 All student notes should be written here.
