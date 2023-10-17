@@ -47,6 +47,7 @@ function reset() {
   let resetElement = document.querySelector(`[class= ${'char' + i}]`);
   while (resetElement !== undefined) {
     resetElement.className = 'char' + i;
+    console.log(resetElement, resetElement.className);
     i++;
     resetElement = document.querySelector(`[class= ${'char' + i}]`);
   }
