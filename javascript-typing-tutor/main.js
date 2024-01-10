@@ -33,28 +33,11 @@ function check(event) {
 }
 
 const $yesButton = document.querySelector('.yes');
-$yesButton.addEventListener('click', reset);
+$yesButton.addEventListener('click', () => {
+  location.reload();
+});
 
 const $noButton = document.querySelector('.no');
 $noButton.addEventListener('click', function () {
   document.querySelector('.typing-result').className = 'typing-result hide';
 });
-
-function reset() {
-  document.querySelector('.typing-result').className = 'typing-result hide';
-  console.log('reset');
-  let i = 1;
-  let resetElement = document.querySelector(`[class= ${'char' + i}]`);
-  while (resetElement !== undefined) {
-    resetElement.className = 'char' + i;
-    console.log(resetElement, resetElement.className);
-    i++;
-    resetElement = document.querySelector(`[class= ${'char' + i}]`);
-  }
-  // const counter = 1;
-  // const element = document.querySelector('.char1');
-  // const character = element.textContent;
-  // const selector = 'char' + counter;
-  // const wrongChar = 0;
-  // window.addEventListener('keydown', check);
-}
