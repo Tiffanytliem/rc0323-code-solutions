@@ -21,9 +21,9 @@ function left(event) {
     currentImg = 4;
   }
   for (let i = 0; i < $images.length; i++) {
-    $images[j].className = 'hidden';
-    $icons[j].classList.remove('fa-solid');
-    $icons[j].classList.add('fa-regular');
+    $images[i].className = 'hidden';
+    $icons[i].classList.remove('fa-solid');
+    $icons[i].classList.add('fa-regular');
   }
   $images[currentImg].className = '';
   $icons[currentImg].classList.remove('fa-regular');
